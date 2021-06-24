@@ -29,7 +29,7 @@ def romanNum(roman: str, numOfDigit: int, digit: str):
 
 
 def int_to_romanNumeral(number: int):
-    if (number > 4999):
+    if (number > 3999):
         return("err, number to high")
     else:
         roman = ""
